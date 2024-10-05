@@ -3,8 +3,6 @@ stages:
 
 
 pages:
-  # Using Node instead of node-alpine since the latter has some missing necessary content
-  image: registry.cern.ch/docker.io/library/node:16
   stage: deploy
   script:
   - cd docs
