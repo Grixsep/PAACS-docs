@@ -35,6 +35,9 @@ jobs:
         run: yarn build
         working-directory: ./docs  # Adjust this if necessary
 
+      - name: Add CNAME file
+        run: echo 'paacs.pro' > ./docs/build/CNAME  # Add your custom domain here
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
