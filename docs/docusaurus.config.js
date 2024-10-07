@@ -3,7 +3,7 @@ module.exports = {
   title: "PAACS Documentation",
   tagline: "Documentation for PAACS Software",
   url: "https://paacs.pro",
-  baseUrl: "/docs/",
+  baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/drupal.ico",
