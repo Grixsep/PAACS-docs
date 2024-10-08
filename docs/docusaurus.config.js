@@ -8,7 +8,7 @@ module.exports = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/drupal.ico",
   organizationName: "PAACS Software Ltd",
-  projectName: "https://gitlab.cern.ch/drupal/paas/drupal-documentation",
+    projectName: "https://github.com/PAACS-Software/Docs.git",
   themeConfig: {
     announcementBar: {
         id: 'customisation_block',
@@ -32,13 +32,7 @@ module.exports = {
           position: "left",
         },
         {
-          to: "/web-governance/",
-          activeBasePath: "docs",
-          label: "Governance",
-          position: "right",
-        },
-        {
-          href: "https://gitlab.cern.ch/drupal/paas/drupal-documentation",
+            href: "https://github.com/PAACS-Software/Docs",
           label: "Git",
           position: "right",
         },
@@ -65,8 +59,8 @@ module.exports = {
           title: "Outreach",
           items: [
             {
-              label: "Talks & Presentations",
-              to: "/publications",
+              label: "Socials",
+              to: "/",
             },
           ],
         },
@@ -74,8 +68,8 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Drupal Forum",
-              href: "https://drupal-community.web.cern.ch/",
+              label: "Forum",
+              href: "Still to be setup",
             },
           ],
         },
@@ -90,7 +84,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: ({ docPath }) =>
-            `https://gitlab.cern.ch/drupal/paas/drupal-documentation/edit/master/docs/docs/${docPath}`,
+            `https://github.com/PAACS-Software/Docs/docs/${docPath}`,
           //path: 'docs',
           routeBasePath: "/", // Serve the docs at the site's root
           breadcrumbs: true,
